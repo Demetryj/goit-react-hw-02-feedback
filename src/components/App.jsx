@@ -13,7 +13,7 @@ class App extends Component {
   };
 
   handleIncrement = option => {
-    this.setState(prevState => ({ [option]: this.state[option] + 1 }));
+    this.setState({ [option]: this.state[option] + 1 });
   };
 
   countTotalFeedback = () => {
